@@ -13,7 +13,8 @@ struct SwiftUICoreDataSpendingTrackerApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            MainView()
+            DeviceIdiomView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

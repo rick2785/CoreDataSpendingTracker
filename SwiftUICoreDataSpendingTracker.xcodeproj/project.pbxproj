@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09260E572889262300029AB2 /* AddCardForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09260E562889262300029AB2 /* AddCardForm.swift */; };
+		09713B44296D23820055E49F /* DeviceIdiomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09713B43296D23820055E49F /* DeviceIdiomView.swift */; };
+		09713B46296D273F0055E49F /* MainPadDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09713B45296D273F0055E49F /* MainPadDeviceView.swift */; };
+		098FC8F6295ED4EE0026D006 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098FC8F5295ED4EE0026D006 /* Color.swift */; };
+		099ACD682905489400573601 /* CategoriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099ACD672905489400573601 /* CategoriesListView.swift */; };
+		09C72E0C28FF796100BF8B3F /* AddTransactionForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C72E0B28FF796100BF8B3F /* AddTransactionForm.swift */; };
+		09C72E122901365500BF8B3F /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C72E112901365500BF8B3F /* TransactionListView.swift */; };
 		09D681032875FA0C002932B7 /* SwiftUICoreDataSpendingTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D681022875FA0C002932B7 /* SwiftUICoreDataSpendingTrackerApp.swift */; };
 		09D681052875FA0C002932B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D681042875FA0C002932B7 /* ContentView.swift */; };
 		09D681072875FA0F002932B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D681062875FA0F002932B7 /* Assets.xcassets */; };
 		09D6810A2875FA0F002932B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D681092875FA0F002932B7 /* Preview Assets.xcassets */; };
 		09D6810C2875FA0F002932B7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D6810B2875FA0F002932B7 /* Persistence.swift */; };
 		09D6810F2875FA0F002932B7 /* SwiftUICoreDataSpendingTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09D6810D2875FA0F002932B7 /* SwiftUICoreDataSpendingTracker.xcdatamodeld */; };
+		09D681172875FBC0002932B7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D681162875FBC0002932B7 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09260E562889262300029AB2 /* AddCardForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardForm.swift; sourceTree = "<group>"; };
+		09713B43296D23820055E49F /* DeviceIdiomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceIdiomView.swift; sourceTree = "<group>"; };
+		09713B45296D273F0055E49F /* MainPadDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPadDeviceView.swift; sourceTree = "<group>"; };
+		098FC8F5295ED4EE0026D006 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		099ACD672905489400573601 /* CategoriesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesListView.swift; sourceTree = "<group>"; };
+		09C72E0B28FF796100BF8B3F /* AddTransactionForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionForm.swift; sourceTree = "<group>"; };
+		09C72E112901365500BF8B3F /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
 		09D680FF2875FA0C002932B7 /* SwiftUICoreDataSpendingTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICoreDataSpendingTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D681022875FA0C002932B7 /* SwiftUICoreDataSpendingTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICoreDataSpendingTrackerApp.swift; sourceTree = "<group>"; };
 		09D681042875FA0C002932B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +38,7 @@
 		09D681092875FA0F002932B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		09D6810B2875FA0F002932B7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		09D6810E2875FA0F002932B7 /* SwiftUICoreDataSpendingTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUICoreDataSpendingTracker.xcdatamodel; sourceTree = "<group>"; };
+		09D681162875FBC0002932B7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +52,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09260E552889260D00029AB2 /* AddCard */ = {
+			isa = PBXGroup;
+			children = (
+				09260E562889262300029AB2 /* AddCardForm.swift */,
+			);
+			path = AddCard;
+			sourceTree = "<group>";
+		};
+		098FC8F4295ED4D20026D006 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				098FC8F5295ED4EE0026D006 /* Color.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		09C72E0A28FF794200BF8B3F /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				09C72E0B28FF796100BF8B3F /* AddTransactionForm.swift */,
+				09C72E112901365500BF8B3F /* TransactionListView.swift */,
+				099ACD672905489400573601 /* CategoriesListView.swift */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
 		09D680F62875FA0C002932B7 = {
 			isa = PBXGroup;
 			children = (
@@ -55,12 +97,14 @@
 		09D681012875FA0C002932B7 /* SwiftUICoreDataSpendingTracker */ = {
 			isa = PBXGroup;
 			children = (
+				09D681152875FBA1002932B7 /* Main */,
 				09D681022875FA0C002932B7 /* SwiftUICoreDataSpendingTrackerApp.swift */,
 				09D681042875FA0C002932B7 /* ContentView.swift */,
 				09D681062875FA0F002932B7 /* Assets.xcassets */,
 				09D6810B2875FA0F002932B7 /* Persistence.swift */,
 				09D6810D2875FA0F002932B7 /* SwiftUICoreDataSpendingTracker.xcdatamodeld */,
 				09D681082875FA0F002932B7 /* Preview Content */,
+				09713B43296D23820055E49F /* DeviceIdiomView.swift */,
 			);
 			path = SwiftUICoreDataSpendingTracker;
 			sourceTree = "<group>";
@@ -71,6 +115,18 @@
 				09D681092875FA0F002932B7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09D681152875FBA1002932B7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				098FC8F4295ED4D20026D006 /* Utils */,
+				09C72E0A28FF794200BF8B3F /* Transaction */,
+				09260E552889260D00029AB2 /* AddCard */,
+				09D681162875FBC0002932B7 /* MainView.swift */,
+				09713B45296D273F0055E49F /* MainPadDeviceView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +200,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				09D6810C2875FA0F002932B7 /* Persistence.swift in Sources */,
+				09C72E122901365500BF8B3F /* TransactionListView.swift in Sources */,
+				09260E572889262300029AB2 /* AddCardForm.swift in Sources */,
+				098FC8F6295ED4EE0026D006 /* Color.swift in Sources */,
 				09D6810F2875FA0F002932B7 /* SwiftUICoreDataSpendingTracker.xcdatamodeld in Sources */,
+				09C72E0C28FF796100BF8B3F /* AddTransactionForm.swift in Sources */,
+				099ACD682905489400573601 /* CategoriesListView.swift in Sources */,
 				09D681052875FA0C002932B7 /* ContentView.swift in Sources */,
+				09713B44296D23820055E49F /* DeviceIdiomView.swift in Sources */,
+				09D681172875FBC0002932B7 /* MainView.swift in Sources */,
 				09D681032875FA0C002932B7 /* SwiftUICoreDataSpendingTrackerApp.swift in Sources */,
+				09713B46296D273F0055E49F /* MainPadDeviceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
